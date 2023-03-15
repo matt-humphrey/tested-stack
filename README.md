@@ -1,21 +1,5 @@
 # Stack
 
-**TODO: Add description**
+This is a simple project based on the exercise **Tested Stack** from [DockYard Academy](https://github.com/matt-humphrey/DockYard-Academy).
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `stack` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:stack, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/stack>.
-
+The purpose of the project was to create a basic GenServer that simulates a stack, where you can push elements onto the top of the stack, and also pop off the top element, and to include a comprehensive test suite in ExUnit.
